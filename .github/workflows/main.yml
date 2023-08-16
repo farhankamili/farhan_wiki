@@ -8,7 +8,6 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
-    environment: cpanel_hookup
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
